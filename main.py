@@ -56,7 +56,7 @@ class connect_four:
             return
         board[height][col] = 0
 
-    def check_win(self, player, board):
+    def check_win(self, player, board):    # check's if a player won
         # Check horizontal
         for row in range(len(board)):
             for col in range(len(board[row]) - 3):
