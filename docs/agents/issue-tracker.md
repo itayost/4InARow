@@ -2,7 +2,7 @@
 
 Issues and PRDs for this repo live as GitHub issues in [`itayost/4InARow`](https://github.com/itayost/4InARow). Use the `gh` CLI for all operations.
 
-This working folder is a downloaded copy, not a git clone, so `gh` cannot infer the repo from `git remote`. Always pass `-R itayost/4InARow` explicitly (it is harmless inside a clone too).
+This folder is a git clone with `origin` pointing at `itayost/4InARow`, so `gh` can infer the repo. Still pass `-R itayost/4InARow` explicitly so commands work from any directory, including worktrees or copies without a remote.
 
 ## Conventions
 
